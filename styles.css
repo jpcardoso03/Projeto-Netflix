@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+#container {
+    background: url("./images/background-netflix.jpeg");
+    padding-bottom: 140px;
+}
+
+#language-select{
+    opacity: 0.6;
+    background-color: #000000;
+    border: #ffffff solid 0.1px;
+    font-size: 16px;
+    padding: 7px 30px;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.option{
+    border: none;
+}
+
+#botao-entrar {
+    background-color: #e50914;
+    font-size: 16px;
+    padding: 8px 18px;
+    border: 0;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+}
+
+#botao-entrar:hover {
+    opacity: 0.6;
+}
+
+#cabecalho {
+    padding: 28px 56px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+
+#paragrafo-assista {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+#paragrafo-quer {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+input {
+    width: 500px;
+    padding-left: 10px;
+    opacity: 0.75;
+    background-color: #000000;
+    border: #ffffff solid 0.1px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#botao-email {
+    width: 200px;
+    background-color: #e50914;
+    border: 0;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#botao-email:hover {
+    opacity: 0.6;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 70px;
+}
+
+#rodape {
+    background-color: black;
+    border-top: 10px solid #303030;
+    padding: 70px 0;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#botao-pergunta {
+    width: 800px;
+    background-color: #303030;
+    height: 70px;
+    border: 0;
+    font-size: 24px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+}
+
+#imagem-pergunta {
+    float: right;
+    margin-top: 8px;
+    transform: rotate(45deg); 
+}
+
+#imagem-pergunta-girar {
+    float: right;
+    margin-top: 8px;
+    transform: rotate(90deg);
+    font-size: 24px;
+}
+
+#pergunta {
+    width: 800px;
+    background-color: #303030;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3px;
+    padding: 24px;
+    display: none;
+    font-size: 24px;
+}
+
+@media screen and (max-width:860px){
+
+
+#botao-entrar{
+    padding: 8px 16px;
+    font-size: 14px;
+}
+#language-select{
+    max-width: 0;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 110px;
+}
+
+#paragrafo-assista {
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+#paragrafo-quer{
+    font-size: 18px;
+}
+
+input {
+    width: 400px;
+    height: 60px;
+}
+
+#botao-email {
+    width: 180px;
+    height: 60px;
+    font-size: 26px;
+}
+
+#rodape{
+    padding:  100px 0 400px 0px;
+ }
+
+#botao-pergunta{
+    width: 750px;
+}
+
+#pergunta {
+    width: 750px;
+}
+
+
+
+@media screen and (max-width:780px){
+
+#rodape{
+        padding:  100px 0 350px 0px;
+}
+    
+#botao-pergunta{
+        width: 700px;
+}
+
+#pergunta {
+    width: 700px;
+}
+
+}
+
+@media screen and (max-width:780px){
+
+#botao-pergunta{
+    width: 600px;
+}
+
+#pergunta {
+    width: 600px;
+}
+
+}
+
+@media screen and (max-width:550px){
+
+#logo-netflix{
+    width: 100px;
+    margin-left: -30px;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+input {
+    display: flex;
+    margin: 0px auto;
+    width: 300px;
+    height: 50px;
+}
+
+#botao-email {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    font-size: 22px;
+    margin: 25px auto;
+    text-align: center;
+    line-height: 50px;
+    padding: 0 0 0 25px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#botao-pergunta{
+    width: 370px;
+    height: 70px;
+    font-size: 18px;
+}
+
+#rodape{
+    padding:  100px 0 100px 0px;
+}
+
+#pergunta {
+    width: 370px;
+    font-size: 18px;
+}
+
+#formulario {
+    display: block;
+    margin-top: 20px;
+    height: 70px;
+}
+
+}
+
+@media screen and (max-width:400px){
+
+    
+h1 {
+    font-size: 26px;
+    width: 80%;
+}
+
+#paragrafo-assista {
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+#paragrafo-quer{
+    font-size: 14px;
+    width: 80%;
+    margin: 18px auto 0 auto;
+}
+
+#botao-pergunta{
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+}
+       
+#pergunta {
+    width: 300px;
+    font-size: 18px;
+}    
+}
+
+}
+
+
